@@ -1,0 +1,23 @@
+So the requirements are:
+
+Python3 
+pip3 
+
+ flask import Flask, request, jsonify
+ flask_sqlalchemy, SQLAlchemy
+ flask_marshmallow, Marshmallow
+ flask_restful, Resource, Api
+ datetime
+ 
+ installed on the running machine. 
+ 
+ when running from terminal - 
+
+> Python3
+> from solution import app.db
+> app.app_context().push()
+> db.create_all()
+> exit()
+
+Then you can test it whit for eg 'PostMan' as I did during this hastly development :)
+*** Beware all functionalities are not tested and may not be even fully implemented j 
